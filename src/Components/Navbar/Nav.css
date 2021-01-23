@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.containerNav {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  padding-top: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 173px;
+  height: 57px;
+}
+.menu {
+  margin-left: 7rem;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+.menu ul li {
+  margin-left: 2.5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  color: #8a2be2;
+}
+.getquote {
+  width: 121px;
+  height: 42px;
+  background: #8a2be2;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: auto;
+}
+.getquote:hover {
+  background: #2be29c;
+}
+.quote {
+  width: 100%;
+  margin: 10px 0;
+}

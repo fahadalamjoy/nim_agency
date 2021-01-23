@@ -1,0 +1,69 @@
+.capad {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.capa {
+  background-image: url('../../../images/hero/Group\ 6.jpg');
+  background-repeat: no-repeat, repeat;
+  padding-top: 10px;
+}
+.creative {
+  text-align: end;
+}
+.image4 {
+  width: auto;
+  padding-left: 100px;
+}
+@media (max-width: 800px) {
+  .capability {
+    width: auto;
+  }
+}
+.footer {
+  background: #03172e;
+  margin-top: -20px;
+  color: aliceblue;
+  padding: 100px auto;
+}
+.foot {
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3.5rem 0px;
+}
+.footerT {
+  width: 230px;
+  height: 172px;
+}
+.other {
+  text-align: left;
+}
+.other ul li {
+  list-style: none;
+  text-decoration: none;
+  margin-left: -40px;
+  padding-top: 5px;
+}
+.contact-us ul {
+  list-style: none;
+  list-style: none;
+  text-decoration: none;
+  margin-left: -40px;
+  padding-top: 5px;
+}
+@media (max-width: 1000px) {
+  .foot {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2.5rem 4rem;
+  }
+}
+@media (max-width: 800px) {
+  .foot {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1rem 5rem;
+  }
+}
